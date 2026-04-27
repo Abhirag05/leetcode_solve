@@ -1,25 +1,29 @@
 # LeetCode Solutions
 
-This repository contains Python solutions to LeetCode problems.
+This repository contains Python implementations of LeetCode problems.
 
-## Current Files
+## Repository Structure
 
-This repo will contain one file per problem as more solutions are added.
+Each problem is kept in its own file to keep the codebase organized and easy to navigate.
 
-## Usage
+## Running a Solution
 
-Run any solution file with Python 3:
+Use Python 3 to execute any solution file:
 
 ```bash
 python <problem_name>.py
 ```
 
-## Adding More Solutions
+## File Naming
 
-Add one file per problem and name it after the problem, for example:
+Name each file after the corresponding problem using lowercase snake case. For example:
 
 - `valid_parentheses.py`
 - `binary_search.py`
 - `longest_substring_without_repeating_characters.py`
 
-Keep each file focused on the problem it solves so the repository stays easy to browse.
+## Conventions
+
+- Keep each file focused on a single problem.
+- Prefer clear, readable implementations.
+- Add new solutions as separate files so the repository remains easy to maintain.
