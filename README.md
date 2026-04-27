@@ -4,26 +4,48 @@ This repository contains Python implementations of LeetCode problems.
 
 ## Repository Structure
 
-Each problem is kept in its own file to keep the codebase organized and easy to navigate.
+Solutions are grouped by the primary data structure used in the approach.
+
+```text
+leetcode_solve/
+|-- hash-map/
+|   `-- two_sum.py
+|-- math/
+|   `-- 268_Missing_Number.py
+|-- set/
+|   `-- 448_Find_All_Numbers_Disappeared_in_Array.py
+`-- string/
+	`-- 125_valid_palindrome.py
+```
+
+## Problem Index
+
+| Data Structure | Problem File |
+| --- | --- |
+| Hash Map | `hash-map/two_sum.py` |
+| Math | `math/268_Missing_Number.py` |
+| Set | `set/448_Find_All_Numbers_Disappeared_in_Array.py` |
+| String | `string/125_valid_palindrome.py` |
 
 ## Running a Solution
 
 Use Python 3 to execute any solution file:
 
 ```bash
-python <problem_name>.py
+python <category>/<problem_file>.py
 ```
 
 ## File Naming
 
-Name each file after the corresponding problem using lowercase snake case. For example:
+Name files using a consistent, problem-oriented format, for example:
 
-- `valid_parentheses.py`
-- `binary_search.py`
-- `longest_substring_without_repeating_characters.py`
+- `1_two_sum.py`
+- `20_valid_parentheses.py`
+- `704_binary_search.py`
 
 ## Conventions
 
 - Keep each file focused on a single problem.
 - Prefer clear, readable implementations.
-- Add new solutions as separate files so the repository remains easy to maintain.
+- Place each new file in the folder matching its primary data structure.
+- If a problem uses multiple structures, choose the most central one for categorization.
